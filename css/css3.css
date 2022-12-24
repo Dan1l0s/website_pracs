@@ -1,0 +1,87 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+    margin: 24px 0;
+    margin: 1.5rem 0;
+    line-height: 1.5;
+}
+
+body {
+    position: relative;
+    background-color: #dddddd;
+}
+
+footer {
+    background-color: #459123;
+}
+
+aside {
+    margin-top: 15px;
+    width: 75%;
+    float: right;
+    position: sticky;
+}
+
+div {
+    list-style-position: inside;
+}
+
+#meme1 {
+    width: 100%;
+    float: right;
+    position: fixed;
+}
+
+.nav {
+    padding-top: 7px;
+    margin-top: 10px;
+    width: 18em;
+    height: 5ex;
+    background-color: gray;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    display: table-caption;
+}
+.nav:hover {
+    background-color: #eeeeee;
+}
+
+article {
+    margin-top: 10px;
+      : left;
+}
+
+section {
+    position: relative;
+    display: table-cell;
+    text-decoration: overline;
+}
+
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: #dddddd;
+    margin-top: 10px;
+    border: 2px solid red;
+}
+
+head {
+    z-index: 0;
+    position: absolute;
+}
+
+button > a:visited {
+    color: purple;
+}
+.nav:active {
+    background-color: blue;
+}

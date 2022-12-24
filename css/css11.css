@@ -1,0 +1,113 @@
+.item, .cart-item {
+    background: darkgrey;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+}
+button {
+    background: darkgrey;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.cart-item-temp {
+    background: lightskyblue;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+#messages > p {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notifications {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99999;
+    overflow: hidden;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+    border-radius: 25px;
+    background-color: darkgrey;
+    transition: 2s linear;
+    border: 1px solid black;
+    z-index: 99;
+}
+.notifications:hover .circle {
+    animation: notifications 1s 1 normal ease 0s;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+
+#messages {
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.notifications:hover #messages {
+    animation: notifications-messages 1s 1 normal ease 0s;
+    animation-fill-mode: forwards;
+}
+
+#notification-im {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#number-of-messages {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: lightcoral;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+@keyframes notifications {
+    from {
+        width: 50px;
+        height: 50px;
+    }
+    
+    to {
+        width: 250px;
+        height: auto;
+        max-height: 150px;
+    }
+}
+@keyframes notifications-messages {
+    from {
+        visibility: hidden;
+        opacity: 0;
+    }
+    50% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}

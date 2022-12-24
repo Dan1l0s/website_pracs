@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prac_12</title>
+    <link rel="icon"
+    type="image/png"
+    href="pic/favicon.png">
+    <link rel="stylesheet"
+          href="css/css12.css">
+</head>
+<body>    
+
+
+<a id="href" href="https://youtu.be/dQw4w9WgXcQ">Ссылка на внешний ресурс другого цвета</a><br><br>
+
+<button onclick="addToList()">Добавить элементы в список</button>
+<ul id="list"></ul>
+
+
+
+<button onclick="showPicture()">Показать картинку по центру</button>
+
+<img id="pic" src="gallery/6.jpg" style="visibility: hidden" onclick="showCoordinates()" width="0">
+
+<div class="notifications">
+    <div class="circle">
+        <img id="notification-im" src="pic/notification.png" height="30" width="30">
+        <div id="number-of-messages">0</div>
+        <div id="messages">
+        </div>
+    </div>
+
+</div>
+<script src="js/script12.js"></script>
+</body>
+</html>

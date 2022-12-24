@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon"
+    type="image/png"
+    href="pic/favicon.png"> 
+    <link rel="stylesheet"
+          href="css/css10.css">
+    <title>prac_10</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<body>  
+<div class="form">
+    <div class="form-square" id="form-square1"></div>
+    <div class="form-square" id="form-square2"></div>
+    <div class="form-square" id="form-square3"></div>
+    <div class="form-square" id="form-square4"></div>
+    <div class="form-square" id="form-square5"></div>
+    <form method="post">
+        <fieldset>
+            <legend>Напишите нам сообщение</legend>
+
+            <input type="text" id="name" name="name" required placeholder="Ваше имя">
+            <textarea id="comment" name="comment" rows="5" cols="23" minlength="15" maxlength="500"
+                      spellcheck="true" required placeholder="Сообщение"></textarea>
+            <div id="buttons">
+                <button type="submit" name="submit" id="submit">Отправить</button>
+                <button type="reset" name="reset" id="reset">Очистить</button>
+            </div>
+        </fieldset>
+
+    </form>
+</div>
+<br>
+<div class="glass">
+
+  <div class="glass-elem">
+    <div class="glass-overlay" id="glass-overlay1"></div>
+    <div class="glass-legend">
+      <p class="glass-legend-txt">Первая карточка</p>
+    </div>
+  </div>
+
+  <div class="glass-elem">
+    <div class="glass-overlay" id="glass-overlay2"></div>
+    <div class="glass-legend">
+      <p class="glass-legend-txt">Вторая карточка</p>
+    </div>
+  </div>
+
+  <div class="glass-elem">
+    <div class="glass-overlay" id="glass-overlay3"></div>
+    <div class="glass-legend">
+      <p class="glass-legend-txt">Третья карточка</p>
+    </div>
+  </div>
+
+</div>
+<br>
+<input type="image" id="trash" src="pic/trash.png" alt="Кнопка «input»" width="50" height="50" />
+
+
+
+<script src="js/script10.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+    margin: 18px 0;
+    margin: 1.5rem 0;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+footer {
+    background-color: #cccccc;
+}
+
+aside {
+    width: 80%;
+    float: right;
+}
+
+.nav {
+    width: 18em;
+    height: 5ex;
+    background-color: gray;
+    border: 2px solid gainsboro;
+    font-weight: bold;
+    color: black;
+}
+.nav:hover {
+    background-color: #eeeeee;
+}
+
+article {
+    color: red;
+}
+
+button > a:visited {
+    color: purple;
+}
+.nav:active {
+    background-color: blue;
+}

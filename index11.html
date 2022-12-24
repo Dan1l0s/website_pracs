@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prac_11</title>
+    <link rel="icon"
+    type="image/png"
+    href="pic/favicon.png">
+    <link rel="stylesheet"
+          href="css/css11.css">
+</head>
+<body>
+    <div class="item">
+        <p>Товар №1</p>
+        <p>499 p.</p>
+        <button onclick="add(1, 499)">В корзину</button>
+    </div>
+    <div class="item">
+        <p>Товар №2</p>
+        <p>749 p.</p>
+        <button onclick="add(2, 749)">В корзину</button>
+    </div>
+    <div class="item">
+        <p>Товар №3</p>
+        <p>999 p.</p>
+        <button onclick="add(3, 999)">В корзину</button>
+    </div>
+
+
+    <a href="cart.html">Корзина</a>
+
+
+    <div class="notifications" onclick="stopMessage()">
+        <div class="circle">
+            <img id="notification-im" src="pic/notification.png" height="30" width="30">
+            <div id="number-of-messages">1</div>
+            <div id="messages">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script11.js"></script>
+</body>
+</html>
